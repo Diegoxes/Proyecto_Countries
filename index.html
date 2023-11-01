@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <h1>Where is your countrie?</h1><button class="btn-dark-mode">
+                <i class="far fa-sun"></i> <i class="far fa-moon">   
+                </i> 🌓Dark Mode</button>
+        </div>
+    </nav>
+
+    <header class="container filter-content my-2">
+            <form class="form-search" id="formulario">
+                🔍
+                <input type="text" name="search" placeholder="Ingresa el País a buscar" id="inputFormulario">
+            </form>
+            <div class="custom-select" >
+                <select id="selectFiltro">
+                    <option value="">Filtrar por region </option>
+                    <option value="todos">Todos</option>
+                    <option value="Africa">Africa </option>
+                    <option value="Americas"> America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europa </option>
+                    <option value="Oceania"> Oceania</option>
+                    
+                </select>
+            </div>
+
+    </header>
+    <main class="container grid" id="banderas">
+
+    </main>
+</body>
+<script src="./js/darkMode.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/filter.js"></script>
+<script src="./js/formulario.js"></script>
+
+</html>
+
+
+ <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>*/
